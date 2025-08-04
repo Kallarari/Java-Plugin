@@ -1,0 +1,8 @@
+name: pluginvideo
+version: '1.0-SNAPSHOT'
+main: br.com.PluginVideo
+api-version: '1.21'
+commands:
+  zuluinit:
+    description: Cria um NPC chamado Zulu
+    usage: /zuluinit
