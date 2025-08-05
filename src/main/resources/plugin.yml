@@ -1,8 +1,9 @@
-name: pluginvideo
+name: NPCTeams
 version: '1.0-SNAPSHOT'
 main: br.com.PluginVideo
 api-version: '1.21'
+depend: [Citizens, Sentinel]
 commands:
-  zuluinit:
-    description: Cria um NPC chamado Zulu
-    usage: /zuluinit
+  spawnteams:
+    description: Spawna duas equipes de NPCs que brigam entre si
+    usage: /spawnteams [localização]

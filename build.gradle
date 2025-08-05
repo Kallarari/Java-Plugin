@@ -16,6 +16,8 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
+    implementation files('libs/Citizens-2.0.39-b3867.jar')
+    implementation files('libs/Sentinel.jar')
 }
 
 tasks {
